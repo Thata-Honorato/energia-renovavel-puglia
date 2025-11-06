@@ -2,8 +2,7 @@
 
 ## 🧭 Visão Geral
 
-Este projeto tem como objetivo explorar e analisar os **dados de solicitações de conexão à rede elétrica** para **instalações de fontes renováveis** na região da **Puglia (Itália)**.  
-A proposta é identificar padrões, comparar a **rentabilidade e predominância** entre diferentes tipos de energia — como eólica, solar e biomassa — e compreender o **avanço da transição energética** na região.
+O projeto busca compreender como as diferentes fontes de energia renovável evoluíram na região da Puglia, analisando o volume de instalações, seus padrões de crescimento e a **rentabilidade** entre os distintos tipos de energia. Além disso, investiga os impactos econômicos e ambientais associados, com base em dados públicos, para responder a subquestões sobre **eficiência, distribuição territorial e sustentabilidade.**
 
 ---
 
@@ -18,6 +17,58 @@ A proposta é identificar padrões, comparar a **rentabilidade e predominância*
 4. Criação de **visualizações interativas** e dashboards (futuro deploy no Streamlit).
 
 ---
+
+## 🔍 Subquestões de Pesquisa
+
+|*Para atingir o objetivo central, o estudo explora as seguintes subquestões analíticas:*|
+|-
+
+  🔹 1. Impactos ambientais 🌿
+
+Quais tipos de energia apresentam maior potencial de redução de emissões?
+
+Há uma correlação entre o crescimento das instalações renováveis e a diminuição de dependência de combustíveis fósseis?
+
+Quais municípios estão liderando a transição energética e quais ainda têm baixa adesão?
+
+
+
+  🔹 2. Impactos econômicos 📈
+
+Como as diferentes fontes de energia se comparam em termos de potência instalada por investimento (eficiência econômica)?
+
+Existe um retorno mais rápido para determinados tipos de energia (por exemplo, solar vs eólica)?
+
+Municípios com maior produção renovável têm atraído mais investimento público/privado?
+
+
+
+  🔹 3. Aspectos sociais e territoriais 🏞️
+
+A expansão das fontes renováveis está distribuída de forma equilibrada ou concentrada em poucos municípios?
+
+Existem áreas sub-representadas que poderiam receber mais incentivo?
+
+Como o acesso à energia limpa pode impactar comunidades locais (empregos, infraestrutura, etc.)?
+
+
+
+  🔹 4. Eficiência e tendência temporal 📉
+
+Qual é o crescimento anual das instalações de energia renovável na Puglia?
+
+Há tendências de substituição (ex: menos biomassa, mais solar)?
+
+Existe sazonalidade nas solicitações de conexão?
+
+-----
+
+## 💡 Justificativa
+
+Compreender o panorama das energias renováveis na Puglia contribui para avaliar a eficiência das políticas energéticas, a sustentabilidade regional e o equilíbrio entre crescimento econômico e preservação ambiental.
+Além disso, o estudo oferece insumos estratégicos para futuras análises comparativas entre regiões italianas ou europeias.
+
+------
 
 ## 🧰 Tecnologias Utilizadas
 
@@ -47,11 +98,3 @@ energia-renovavel-puglia/
 ├── README.md
 └── requirements.txt
 
-
-## 🚧 Status do Projeto
-
-🔹 **Fase atual:** Bloco 1 – Limpeza e correção de estrutura do dataset  
-🔹 **Próximos passos:**
-- Padronizar nomes de colunas e tipos de dados.  
-- Converter valores numéricos e datas.  
-- Iniciar análise exploratória e comparativa entre fontes renováveis.
